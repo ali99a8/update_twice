@@ -1,0 +1,236 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  .scroll {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #e3e2ed;
+   font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    
+    border: none;
+   
+    right: 20px;
+    bottom: 20px;
+    position: fixed;  
+    z-index: 122;
+    display: none;
+  }
+  .scroll:hover{
+    box-shadow: 1px -1px 12px black;
+  }
+  /* baground navbar */
+  .bg-light {
+    background-color: #f9e45b !important;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+  /* titel of navbar */
+  .navbar .navbar-brand {
+    font-size: 30px;
+    color: black;
+  }
+  /* box of nav when small screen */
+  .navbar .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    border: none;
+    border-radius: 0.55rem;
+  }
+  .navbar .navbar-toggler:hover {
+    border-radius: 0.75rem;
+ 
+  }
+  /* items in navbar*/
+  .navbar .navbar-collapse ul li a {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .navbar .navbar-collapse ul li a:hover {
+    background-color: #6db784;
+    color: white !important;
+    border-radius: 0.55rem;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+  .navbar .btn {
+    background-color: black;
+    font-size: 18px;
+    padding: 5px 17px;
+    color: white;
+    border: none;
+    outline: none;
+  }
+  .navbar .btn:hover {
+    background-color: #1b4d89;
+  }
+  .navbar .btn:focus {
+    border: none;
+    outline: none;
+  }
+  /* settings home */
+  .home {
+    background-color: #6db784 ;
+    width: 100%;
+    height: 95vh;
+    position: relative;
+  }
+  
+  .home .info p {
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+  }
+  .home .info h1 {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+  }
+  /* settings bun download cv*/
+  .home .info button {
+    background-color: #ffde03;
+    color: black;
+    font-size: 22px;
+    border: none;
+  }
+  .home .info button:hover {
+    background-color: red;
+    color: white !important;
+  }
+  /* settinds icons in home*/
+  .hhome{
+      background-color: #373737;
+  }
+  .home .icons ul li {
+    list-style: none;
+    padding: 0.5rem;
+  }
+  .home .icons ul li:hover {
+    background-color: #141e61;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+  /* end settinds icons in home*/
+  
+  /* start settings about*/
+  .about h1{
+    font-size:5rem;
+    color:  #6db784 ;
+  }
+  .about .about-info h6{
+    font-size: 15px;
+  }
+  .about .btn{
+    background-color: #0336ff;
+    color: white;
+    font-size: 17px;
+  }
+  .about .btn:hover{
+    background-color: #141e61;
+  }
+  /* end settings about*/
+  /* start settings my services*/
+  
+  .services .card .card-info .fa , .fab{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+  }
+  .services .card .card-info h4{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .services .card p{
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+  }
+  .services .card a{
+    font-size: 20px;
+  }
+  .services .card a:hover{
+    color: #0336ff;
+  }
+  .services .card:hover{
+    box-shadow: 2px 2px 20px red;
+  }
+  .services .card:hover{
+    box-shadow: 4px 6px 28px -9px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 4px 6px 28px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 6px 28px -9px rgba(0,0,0,0.75);
+  transition: 0.2s;
+  }
+  /* start settings review */
+  .review .form-controal{
+    outline: none;
+    border: none;
+    box-shadow: -2px -2px 15px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -2px 15px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -2px 15px -9px rgba(0,0,0,0.75);
+    transition: 0.2s;
+    font-size: 18px;
+  }
+  .review .btn_sent_message{
+    background-color:  #6db784 !important;
+    border: none;
+  }
+
+  .review .box{
+    box-shadow: 1px 3px 23px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 3px 23px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 23px -7px rgba(0,0,0,0.75);
+    border-radius: 10px;
+  }
+  
+  /* end settings review */
+  
+  /* start footer */
+  .footer{
+    background-color:  #6db784;
+  
+  }
+
+
+ .footer  a{
+   font-size: 17px;
+   text-decoration: none;
+ }
+ .footer a i{
+   padding-left: 12px;
+ }
+
+ .footer a{
+   text-decoration: none;
+   color: white;
+ }
+ .footer a:hover{
+   color: red;
+ }
+
+
+ /* start review */
+ .carousel{
+   border: 2px solid red;
+ }
+ .carousel .carousel-inner{
+   border: 5px solid red;
+ }
+
